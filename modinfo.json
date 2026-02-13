@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "mymod",
+  "name": "MyMod",
+  "version": "1.0.0",
+  "description": "A Vintage Story mod",
+  "authors": ["YourName"],
+  "dependencies": {
+    "game": "1.21.0"
+  }
+}

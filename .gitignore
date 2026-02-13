@@ -1,0 +1,7 @@
+bin/
+obj/
+releases/
+lib/*.dll
+lib/*.pdb
+lib/*.xml
+.claude/

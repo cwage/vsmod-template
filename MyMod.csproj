@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>MyMod</AssemblyName>
+    <RootNamespace>MyMod</RootNamespace>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="VintagestoryAPI">
+      <HintPath>lib/VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="cairo-sharp">
+      <HintPath>lib/cairo-sharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Uncomment to reference survival/essentials/creative mod DLLs:
+    <Reference Include="VSSurvivalMod">
+      <HintPath>lib/VSSurvivalMod.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSEssentials">
+      <HintPath>lib/VSEssentials.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VSCreativeMod">
+      <HintPath>lib/VSCreativeMod.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    -->
+  </ItemGroup>
+
+</Project>
